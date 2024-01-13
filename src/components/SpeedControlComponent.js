@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
-import {incrementRotation, reduceRotation} from "../redux/RotationReducer";
+import {incrementRotation, reduceRotation} from "../redux/reducers/RotationReducer";
 
 function SpeedControlComponent() {
 

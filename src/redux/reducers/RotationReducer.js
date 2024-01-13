@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const rotationSlice = createSlice({
     name: 'rotation',
     initialState: {
-        value: 1,
+        value: 6,
     },
     reducers: {
         incrementRotation: (state) => {
